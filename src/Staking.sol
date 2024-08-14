@@ -431,6 +431,7 @@ contract Staking is Ownable {
         emit StakingEnabled(msg.sender, block.timestamp);
     }
 
+
     /**
      * @notice Set the reward limit amount to restrict staking
      *
